@@ -1,7 +1,7 @@
 Name:      hyphen
 Summary:   A text hyphenation library
 Version:   2.8.6
-Release:   3%{?dist}
+Release:   5%{?dist}
 Source:    http://downloads.sourceforge.net/hunspell/hyphen-%{version}.tar.gz
 Group:     System Environment/Libraries
 URL:       http://hunspell.sf.net
@@ -86,6 +86,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/substrings.pl
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.8.6-5
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.8.6-4
+- Mass rebuild 2013-12-27
+
 * Thu Apr 04 2013 Caolán McNamara <caolanm@redhat.com> - 2.8.6-3
 - Resolves: rhbz#925563 support aarch64
 
